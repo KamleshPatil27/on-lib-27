@@ -18,7 +18,7 @@ html,body{
   color: #fff;
 }
 .wrapper{
-  width: 380px;
+  width: 30px;
   background: #fff;
   border-radius: 15px;
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
@@ -136,12 +136,12 @@ form .signup-link a:hover{
 }
 @media only screen and (min-width: 600px) {
   /* For tablets: */
-  .wrapper {width: auto;
+  .wrapper form{width: auto;
   }
 }
   @media only screen and (min-width: 768px) {
   /* For desktop: */
-    .wrapper {width: auto;
+    .wrapper form{width: auto;
     }
   }
 
