@@ -129,25 +129,19 @@ form .pass-link a:hover,
 form .signup-link a:hover{
   text-decoration: underline;
 }
-@media (max-width: 690px){
-    .max-width{
-        padding: 15 23px;
-    }
-  
-    .services .serv-content .card{
-        width: 50%;
-    }
+/* For mobile phones: */
+[class*="wrapper"] {
+  width: 100%;
 }
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .wrapper {width: auto;
+  }
+}
+  @media only screen and (min-width: 768px) {
+  /* For desktop: */
+    .wrapper {width: auto;
+    }
+  }
 
-@media (max-width: 500px) {
- 
-       .contact .right form .fields{
-        flex-direction: column;
-    }
-       .contact .right form .email{
-        margin: 15px;
-    }
-    .right form .error-box{
-       width: 50px;
-    }
-   }
