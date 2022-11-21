@@ -131,11 +131,11 @@ form .signup-link a:hover{
 }
 @media (max-width: 690px){
     .max-width{
-        padding: 0 23px;
+        padding: 15 23px;
     }
   
     .services .serv-content .card{
-        width: 100%;
+        width: 50%;
     }
 }
 
@@ -145,9 +145,9 @@ form .signup-link a:hover{
         flex-direction: column;
     }
        .contact .right form .email{
-        margin: 0;
+        margin: 15px;
     }
     .right form .error-box{
-       width: 150px;
+       width: 50px;
     }
    }
