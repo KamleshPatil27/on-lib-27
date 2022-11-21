@@ -129,7 +129,7 @@ form .pass-link a:hover,
 form .signup-link a:hover{
   text-decoration: underline;
 }
-@media (max-width: 69px) {
+@media (max-width: 900px) {
     .max-width{
         padding: 0 23px;
     }
@@ -147,7 +147,7 @@ form .signup-link a:hover{
     }
 }
 
-@media (max-width: 50px) {
+@media (max-width: 890px) {
     .home .home-content .text-2{
         font-size: 50px;
     }
