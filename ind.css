@@ -143,7 +143,7 @@ form .signup-link a:hover{
         font-size: 20px;
     }
     .services .serv-content .card{
-        width: 100%;
+        width: 10%;
     }
 }
 
@@ -166,7 +166,7 @@ form .signup-link a:hover{
         margin: 0;
     }
     .right form .error-box{
-       width: 150px;
+       width: 15px;
     }
     .scroll-up-btn{
         right: 15px;
