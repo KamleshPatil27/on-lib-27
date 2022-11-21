@@ -70,33 +70,18 @@ background: rgb(30,123,238);
     }
 }
 
-@media (max-width: 500px) {
-    .home .home-content .text-2{
-        font-size: 50px;
-    }
-    .home .home-content .text-3{
-        font-size: 27px;
-    }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text{
-        font-size: 19px;
-    }
-    .contact .right form .fields{
-        flex-direction: column;
-    }
-    .contact .right form .name,
-    .contact .right form .email{
-        margin: 0;
-    }
-    .right form .error-box{
-       width: 150px;
-    }
-    .scroll-up-btn{
-        right: 15px;
-        bottom: 15px;
-        height: 38px;
-        width: 35px;
-        font-size: 23px;
-        line-height: 38px;
-    }
+/* For mobile phones: */
+[class*="body"] {
+  width: auto;
 }
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .body{width: auto;
+  }
+}
+  @media only screen and (min-width: 768px) {
+  /* For desktop: */
+    .body{width: auto;
+    }
+  }
