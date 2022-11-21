@@ -53,7 +53,7 @@ background: rgb(30,123,238);
 } 
 }
 /* For mobile phones: */
-[class*="container"] {
+ @media [class*="container"] {
     width: auto;
  }
 }
