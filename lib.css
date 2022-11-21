@@ -71,7 +71,7 @@ background: rgb(30,123,238);
 }
 
 /* For mobile phones: */
-[class*="body"] {
+[class*="nebox"] {
   height:auto;	
   width: auto;
   padding:15px;
