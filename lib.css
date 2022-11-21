@@ -71,7 +71,7 @@ background: rgb(30,123,238);
 }
 
 /* For mobile phones: */
-[class*="nebox"] {
+[class*="body"] {
   width: 100px;
  }
 }
