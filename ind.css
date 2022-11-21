@@ -131,7 +131,7 @@ form .signup-link a:hover{
 }
 /* For mobile phones: */
 [class*="wrapper"] {
-  width: 100%;
+  width: auto;
 }
 }
 @media only screen and (min-width: 600px) {
